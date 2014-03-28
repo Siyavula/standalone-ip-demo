@@ -111,7 +111,12 @@ div.dash-toggle-container {
         display:inline;
     }
     div.dash-toggle{
-        border:solid;
+        border:1px solid gray;
+        margin:5px;
+        border-radius:3px;
+        display:inline;
+        max-width:25%;
+        text-align: center;
     }
 }
 
