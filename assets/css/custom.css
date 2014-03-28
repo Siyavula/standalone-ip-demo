@@ -98,9 +98,20 @@ img.mastery{
 max-width:90%;
 }
 
-@media (max-width: 768px) {
+div.dash-toggle-container {
+    display:none;
+}
+
+
+@media (max-width: 991px) {
         td.stars{
         display:none;
+    }
+    div.dash-toggle-container {
+        display:inline;
+    }
+    div.dash-toggle{
+        border:solid;
     }
 }
 
