@@ -1,0 +1,127 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+/*Tweaks to navbar to get blues and greys*/
+.navbar-inverse {
+background-color: #008fb4;
+border-color:  #008fb4;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+color: #727272;
+background-color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+color: #e2e2e2;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #e2e2e2;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+background-color: #c0c0c0;
+}
+
+.navbar-inverse .navbar-toggle {
+border-color: #a2a2a2;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #e2e2e2;
+}
+
+/*Signin/register box styles*/
+
+div.signin{
+	margin-top: 5%;
+	margin-left:0.5em;
+	margin-right:0.5em;
+	border: 1px solid lightgray;
+	padding:0px;
+
+}
+
+
+
+div.signin > h3{
+	background-color:#008fb4;
+	color:white;
+	padding:0.3em;
+	margin:0px;
+
+}
+
+div.signin > p{
+	Margin:0.5em;
+}
+
+form{
+	padding:1em;
+}
+
+hr{
+    border:1px solid rgb(221, 221, 221);
+    margin:0px;
+}
+
+div.dash{
+    text-align:center;
+}
+
+button.btn{
+    margin:10px;
+}
+
+div.toc{
+    background-color:#F0F0F0;
+}
+
+div.checkbox{
+    margin:0px;
+}
+
+button.expand{
+ border: 1px solid #205c90; 
+ color: #205c90;
+ border-radius:4px;
+ background: #f4f4f4;
+    margin:0px;
+}
+
+img.mastery{
+max-width:90%;
+}
+
+@media (max-width: 768px) {
+        td.stars{
+        display:none;
+    }
+}
+
+td > a{
+    color: #205c90;
+    border-bottom: 0.1em solid rgb(204, 204, 204);
+}
+
+td > a:hover {
+    color: rgb(117, 173, 10) !important;
+}
+
+/*li > a:hover {
+    color: rgb(117, 173, 10) !important;
+}*/
+
+p{
+    margin:2em;
+}
+
+div.footer{
+    text-align: center;
+    font-size: 80%;
+}
