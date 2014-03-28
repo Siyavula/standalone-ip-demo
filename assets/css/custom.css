@@ -118,10 +118,39 @@ td > a:hover {
 }*/
 
 p{
-    margin:2em;
+    margin:1em;
 }
 
 div.footer{
     text-align: center;
     font-size: 80%;
+    margin-top:20px;
+}
+
+div.summary{
+    margin-top:20px;
+}
+
+
+
+div.answer{
+    background-color:#f8f8f8;
+    border: 1px solid #333;
+    border-radius:4px;
+}
+
+div.answer > ol > li > input.form-control {
+    width: 8em;
+    display:inline;
+    margin: 15px;
+}
+
+div.question img{
+margin: 10px;
+max-width: 80%;
+
+}
+
+p.buttons{
+    text-align:center;
 }
