@@ -57,15 +57,25 @@
     <hr/>
     <h2>Mathematics Grade 10</h2>
     </div>
-	<div class="row col-md-10">
-	    <div class="dash col-md-4">
-		    <img class="col-md-12 col-xs-12" src="./assets/img/this_session.png">
-            
+	<div class="row col-md-10 dash-toggle-container">
+	    <div id="dash-toggle-1" class="col-md-4 dash-toggle">
+        Tab 1    
 	    </div>
-        <div class="dash col-md-4">
+        <div id="dash-toggle-2" class="col-md-4 dash-toggle">
+        Tab 2
+		</div>
+        <div id="dash-toggle-3" class="col-md-4 dash-toggle">
+        Tab 3
+		</div>
+    </div>
+	<div class="row col-md-10">
+	    <div id="dash-1" class="dash col-md-4">
+		    <img class="col-md-12 col-xs-12" src="./assets/img/this_session.png">
+	    </div>
+        <div id="dash-2" class="dash col-md-4">
 	        <img class="col-md-12 col-xs-12" src="./assets/img/mastery.png">
 		</div>
-        <div class="dash col-md-4">
+        <div id="dash-3" class="dash col-md-4">
            <img class="col-md-12 col-xs-12" src="./assets/img/progress.png">
 		</div>
 	</div>
@@ -152,6 +162,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/dash-toggle.js"></script>
   </body>
 </html>
 
