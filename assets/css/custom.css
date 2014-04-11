@@ -170,3 +170,7 @@ max-width: 80%;
 p.buttons{
     text-align:center;
 }
+
+div.redeem-form{
+    border: 1px solid gray;
+}
